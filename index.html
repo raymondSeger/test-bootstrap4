@@ -13,52 +13,19 @@
 
 
 <div class="container">
-
-    <div class="row">
-        <div class="col-6 col-sm-4">.col-6 .col-sm-4</div>
-        <div class="col-6 col-sm-4">.col-6 .col-sm-4</div>
-
-        <!-- This means width 100%, needs to do this for columns (flexbox), d-none means hide for XS, d-md-block means display for MD -->
-        <div class="w-100 d-none d-md-block"></div>
-
-        <div class="col-6 col-sm-4">.col-6 .col-sm-4</div>
-        <div class="col-6 col-sm-4">.col-6 .col-sm-4</div>
-    </div>
-
-
-    <div class="row align-items-start" style="min-height: 10rem;background-color: blue;">
+    
+    <div class="row" style="min-height: 10rem;background-color: red;">
         <div class="col" style="background-color: grey;">
-            One of three columns
+            First, but unordered
         </div>
-        <div class="col" style="background-color: grey;">
-            One of three columns
+        <div class="col order-12" style="background-color: grey;">
+            Second, but last
         </div>
-        <div class="col" style="background-color: grey;">
-            One of three columns
+        <div class="col order-1" style="background-color: grey;">
+            Third, but first
         </div>
     </div>
-    <div class="row align-items-center" style="min-height: 10rem; background-color: green;">
-        <div class="col" style="background-color: grey;">
-            One of three columns
-        </div>
-        <div class="col" style="background-color: grey;">
-            One of three columns
-        </div>
-        <div class="col" style="background-color: grey;">
-            One of three columns
-        </div>
-    </div>
-    <div class="row align-items-end" style="min-height: 10rem;background-color: red;">
-        <div class="col" style="background-color: grey;">
-            One of three columns
-        </div>
-        <div class="col" style="background-color: grey;">
-            One of three columns
-        </div>
-        <div class="col" style="background-color: grey;">
-            One of three columns
-        </div>
-    </div>
+
 </div>
 
 <script src="js/main.js"></script>
